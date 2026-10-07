@@ -1,0 +1,7 @@
+# Release package is distributed only as a GitHub Release asset.
+**/AutoHealer.zip
+
+# Local build and IDE artifacts.
+**/bin/
+**/obj/
+.vs/
