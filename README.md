@@ -1,29 +1,57 @@
 # Auto Healer FeStiCal
 
-مود Auto Healer FeStiCal برای بازی **Doomsday: Last Survivors** و لودر MelonLoader.
+An Auto Healer mod for **Doomsday: Last Survivors**, running through MelonLoader.
 
-## نصب و اجرا
+## Installation and usage
 
-1. اگر MelonLoader هنوز نصب نیست، آن را از [مخزن رسمی MelonLoader](https://github.com/lavagang/melonloader) دریافت و نصب کنید.
-2. بازی را یک بار پس از نصب MelonLoader اجرا کنید. اجرای اول ممکن است بیشتر طول بکشد؛ MelonLoader در این اجرا لودر را راه‌اندازی و تزریق می‌کند و فایل‌ها و پوشه‌های موردنیاز را می‌سازد. اجراهای بعدی معمولاً سریع‌تر هستند.
-3. پس از اجرای اولیه، بازی را کاملاً ببندید.
-4. فایل `AutoHealer.zip` را از بخش [انتشار v1.0.0](https://github.com/Alirezatz/AutoHealer/releases/tag/v1.0.0) دانلود کنید.
-5. محتویات ZIP را در پوشهٔ `Mods` بازی استخراج کنید؛ این پوشه پس از نصب و اجرای MelonLoader ساخته می‌شود. فایل DLL باید مستقیماً در `Mods` قرار بگیرد، نه در یک زیرپوشهٔ اضافه.
-6. بازی را دوباره اجرا کنید و گزارش MelonLoader را بررسی کنید. برای تأیید بارگذاری موفق، نام مود، سازنده، اسمبلی و تعداد مودهای بارگذاری‌شده را بررسی کنید. در بستهٔ فعلی این موارد باید شامل این اطلاعات باشند:
+1. Install MelonLoader if you have not already. Get it from the [official MelonLoader repository](https://github.com/lavagang/melonloader).
+2. Launch the game once after installing MelonLoader. The first launch may take longer while MelonLoader initializes and injects the loader and generates the files it needs. Later launches should be faster.
+3. Close the game completely after that first launch.
+4. Download [`AutoHealer.zip` from the v1.0.0 release](https://github.com/Alirezatz/AutoHealer-Doomsday-Last-Survivors/releases/tag/v1.0.0).
+5. Extract the ZIP contents directly into the game's `Mods` folder, which MelonLoader creates. The DLL should be directly inside `Mods`, not inside an extra nested folder.
+6. Launch the game again and check the MelonLoader log. A successful load should show:
 
    - `Auto Healer FeStiCal v1.0.0`
    - `by AlirezaFeStiCal`
    - `Assembly: AutoHealer.dll`
    - `1 Mod loaded`
 
-   توجه: نام `ClassLibrary2.dll` در درخواست اولیه ذکر شده بود، اما فایل ZIP ارائه‌شده در واقع `AutoHealer.dll` دارد و نام اسمبلی داخل آن نیز `AutoHealer` است؛ بنابراین در گزارش همین بسته باید `AutoHealer.dll` دیده شود.
+   **Note:** `ClassLibrary2.dll` was mentioned in the original request, but the supplied release ZIP contains `AutoHealer.dll`. Its managed assembly name is `AutoHealer`, so `AutoHealer.dll` is the expected assembly name in the log for this release.
 
-پس از بارگذاری موفق مود، می‌توانید بازی را انجام دهید. برای باز و بسته کردن پنل مود، کلید پیش‌فرض `F8` است.
+After the mod loads successfully, you can play the game. Press `F8` to open or close the mod panel (default key).
 
-## انتشار
+## Release
 
-نسخهٔ `v1.0.0` و فایل آمادهٔ نصب `AutoHealer.zip` در [صفحهٔ انتشارها](https://github.com/Alirezatz/AutoHealer/releases) قرار دارند. ZIP فقط به‌عنوان دارایی انتشار ارائه می‌شود و جزو فایل‌های مخزن نیست.
+Download the ready-to-install ZIP from the [v1.0.0 release](https://github.com/Alirezatz/AutoHealer-Doomsday-Last-Survivors/releases/tag/v1.0.0). The ZIP is provided as a release asset and is not included in the source repository.
 
-## کد منبع
+## Source project
 
-پروژهٔ Visual Studio در `AutoHealer/AutoHealer.csproj` قرار دارد. برای ساخت کد منبع، وابستگی‌های MelonLoader و اسمبلی‌های بازی که در فایل پروژه به آن‌ها ارجاع داده شده است باید در محیط توسعه موجود باشند.
+The Visual Studio project is `AutoHealer/AutoHealer.csproj`. Building it requires the MelonLoader and game assemblies referenced by the project file to be available in your development environment.
+
+---
+
+## راهنمای فارسی
+
+این مود برای بازی **Doomsday: Last Survivors** و لودر MelonLoader است.
+
+### نصب و اجرا
+
+1. اگر MelonLoader را نصب نکرده‌اید، آن را از [مخزن رسمی MelonLoader](https://github.com/lavagang/melonloader) دریافت و نصب کنید.
+2. پس از نصب MelonLoader، بازی را یک بار اجرا کنید. اجرای اول ممکن است طولانی‌تر باشد؛ MelonLoader در این اجرا لودر را راه‌اندازی و تزریق می‌کند و فایل‌های موردنیاز را می‌سازد. اجراهای بعدی باید سریع‌تر باشند.
+3. پس از اجرای اول، بازی را کاملاً ببندید.
+4. فایل [`AutoHealer.zip` را از انتشار v1.0.0](https://github.com/Alirezatz/AutoHealer-Doomsday-Last-Survivors/releases/tag/v1.0.0) دانلود کنید.
+5. محتویات ZIP را مستقیماً در پوشهٔ `Mods` بازی استخراج کنید؛ این پوشه را MelonLoader ایجاد می‌کند. فایل DLL باید مستقیماً داخل `Mods` باشد، نه در یک زیرپوشهٔ اضافه.
+6. بازی را دوباره اجرا کنید و گزارش MelonLoader را بررسی کنید. بارگذاری موفق باید شامل این موارد باشد:
+
+   - `Auto Healer FeStiCal v1.0.0`
+   - `by AlirezaFeStiCal`
+   - `Assembly: AutoHealer.dll`
+   - `1 Mod loaded`
+
+   **توجه:** در درخواست اولیه نام `ClassLibrary2.dll` آمده بود، اما ZIP ارائه‌شده شامل `AutoHealer.dll` است. نام اسمبلی داخل آن `AutoHealer` است؛ بنابراین نام مورد انتظار برای این انتشار در گزارش `AutoHealer.dll` است.
+
+پس از بارگذاری موفق مود می‌توانید بازی کنید. برای باز و بسته کردن پنل مود، کلید پیش‌فرض `F8` است.
+
+### کد منبع
+
+پروژهٔ Visual Studio در `AutoHealer/AutoHealer.csproj` قرار دارد. برای ساخت آن باید اسمبلی‌های MelonLoader و بازی که در فایل پروژه به آن‌ها ارجاع داده شده است، در محیط توسعه موجود باشند.
