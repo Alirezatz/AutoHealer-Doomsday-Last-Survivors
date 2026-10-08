@@ -16,8 +16,6 @@ An Auto Healer mod for **Doomsday: Last Survivors**, running through MelonLoader
    - `Assembly: AutoHealer.dll`
    - `1 Mod loaded`
 
-   **Note:** `ClassLibrary2.dll` was mentioned in the original request, but the supplied release ZIP contains `AutoHealer.dll`. Its managed assembly name is `AutoHealer`, so `AutoHealer.dll` is the expected assembly name in the log for this release.
-
 After the mod loads successfully, you can play the game. Press `F8` to open or close the mod panel (default key).
 
 ## Release
